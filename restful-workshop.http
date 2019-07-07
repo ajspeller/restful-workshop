@@ -9,3 +9,17 @@ GET http://{{host}}/person HTTP/1.1
 Content-Type: text/html
 
 ###
+
+GET http://{{host}}/person?name=CJ HTTP/1.1
+Content-Type: text/html
+
+###
+
+GET http://{{host}}/person/AJ HTTP/1.1
+Content-Type: text/html
+
+###
+
+###
+
+###
