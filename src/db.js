@@ -5,7 +5,7 @@ const db = process.env.MONGO_URI;
 
 mongoose.connect(
   db,
-  { useNewUrlParser: true, useCreateIndex: true },
+  { useNewUrlParser: true, useCreateIndex: true, useFindAndModify: false },
   (err, client) => {
     debug(`Database connection established`);
   }
